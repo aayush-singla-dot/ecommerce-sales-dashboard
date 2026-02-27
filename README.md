@@ -1,54 +1,119 @@
-# E-Commerce Sales & Customer Insights Dashboard
+# 📊 Ecommerce Sales Performance Dashboard
 
-## Business Context
-This project simulates the role of a Data Analyst in an e-commerce company. The company sells products online across different regions and wants to understand sales performance and customer behavior to improve revenue and business decisions.
+An end-to-end Data Analysis project where raw ecommerce sales data was cleaned using Python, analyzed using SQL, and visualized using Power BI to generate business insights.
 
-## Problem Statement
-The objective of this project is to analyze e-commerce sales data to identify revenue trends, customer behavior patterns, and regional performance, in order to provide actionable insights that support data-driven business decisions.
+---
 
-## Key Performance Indicators (KPIs)
-- Total Revenue  
-- Total Orders  
-- Total Customers  
-- Average Order Value (AOV)  
-- Repeat Customer Rate  
-- Total Profit 
+# 🚀 Project Overview
 
-## Business Questions
+This project focuses on analyzing ecommerce sales data to understand:
 
-### Sales Performance
-1. How are sales trending over time (monthly and yearly)?
-2. Which product categories generate the most revenue?
-3. Which products are top performers?
+• Overall sales performance
+• Sales trends over time
+• Top performing products
+• Regional performance
+• Category-wise performance
 
-### Customer Analysis
-4. Who are the most valuable customers?
-5. What percentage of revenue comes from repeat customers?
+The final output is an interactive Power BI dashboard.
 
-### Regional Performance
-6. Which regions contribute the most to revenue?
-7. Are there underperforming regions that need attention?
+---
 
-## Project Deliverables
-- Cleaned and transformed dataset  
-- SQL queries for business analysis  
-- Python notebooks for data cleaning and EDA  
-- Interactive Power BI dashboard  
-- Business insights and recommendations  
+# 🧰 Tech Stack
 
-## Initial Data Inspection
-The dataset was manually inspected in Excel to understand column structure, data types, row count, and overall data quality before starting cleaning and analysis.
+• Python (Pandas, Matplotlib)
+• SQL (MySQL)
+• Power BI
+• Excel / CSV
+• Git & GitHub
 
-## Exploratory Data Analysis (Key Insights)
+---
 
-- Sales show variability over time with noticeable peaks, suggesting seasonal demand.
-- Technology is the highest revenue-generating product category.
-- The West region is the top-performing region, while the South region shows lower sales.
-- The Consumer segment contributes the majority of total revenue.
+# 📂 Project Structure
 
+```
+Ecommerce Sales Analysis/
+│
+├── dashboard/
+│   └── sales_dashboard.pbix
+│
+├── data/
+│   ├── train.csv
+│   ├── cleaned_data.csv
+│   └── cleaned_sales_data.csv
+│
+├── python/
+│   └── data_cleaning.ipynb
+│
+├── sql/
+│   └── sales_analysis.sql
+│
+├── images/
+│   └── dashboard_preview.png
+│
+└── README.md
+```
 
- 
+---
 
+# 📊 Dashboard Features
 
+• Total Sales KPI
+• Total Orders KPI
+• Average Sales KPI
+• Sales Trend Over Years
+• Top 10 Products by Sales
+• Sales by Category
+• Sales by Region
+• Interactive Filters (Region, Segment)
 
+---
 
+# 🧹 Data Cleaning
+
+Performed using Python:
+
+• Handled missing values
+• Removed duplicates
+• Converted data types
+• Exported cleaned dataset
+
+File:
+
+```
+python/data_cleaning.ipynb
+```
+
+---
+
+# 📈 Dashboard Preview
+
+![Dashboard Preview](images/dashboard_preview.png)
+
+---
+
+# 💡 Business Insights
+
+• Identified top performing products
+• Found highest sales region
+• Analyzed yearly sales trends
+• Compared category performance
+
+---
+
+# 🎯 Project Outcome
+
+Successfully built a professional Business Intelligence dashboard to support data-driven decision making.
+
+---
+
+# 👨‍💻 Author
+
+Aayush Singla
+
+B.Tech CSE (AI & ML)
+
+Aspiring Data Analyst / ML Engineer
+
+---
+
+# ⭐ If you like this project, give it a star on GitHub!
