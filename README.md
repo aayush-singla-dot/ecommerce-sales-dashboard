@@ -87,7 +87,8 @@ python/data_cleaning.ipynb
 
 # 📈 Dashboard Preview
 
-![Dashboard Preview](images/dashboard_preview.png)
+<img width="1280" height="699" alt="dashboard_preview" src="https://github.com/user-attachments/assets/fda8ca4d-52d2-461e-9cb6-b5561709fdac" />
+
 
 ---
 
